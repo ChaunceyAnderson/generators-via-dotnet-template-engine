@@ -1,0 +1,58 @@
+{
+    "$schema": "<http://json.schemastore.org/template>",
+    "author": "Me",
+    "classifications": [ "Console" ],
+    "name": "React Redux Pattern 1",
+    "identity": "ReactReduxPattern1",    
+    "groupIdentity":"ReactReduxPattern1",
+    "shortName": "reactReduxPattern1",
+    "tags": {
+     "language": "C#",
+     "type":"project"
+    },
+    "sourceName": "ReactReduxPattern1",
+    "preferNameDirectory": true,
+    "symbols":{
+     "includetest": {
+       "type": "parameter",
+       "datatype": "bool",
+       "defaultValue": "false"
+     },
+     "sliceName": {
+      "type": "parameter",
+      "defaultValue": "mySlice",
+      "replaces":"counter"
+     },
+     "selectStateVariable1": {
+      "type": "parameter",
+      "defaultValue": "selectvariable1",
+      "replaces":"selectvariable1"
+     },
+     "stateVariable1": {
+      "type": "parameter",
+      "defaultValue": "variable1",
+      "replaces":"variable1"
+     },
+     "stateVariable2": {
+      "type": "parameter",
+      "defaultValue": "variable2",
+      "replaces":"variable2"
+     },
+     "reducerAction1": {
+      "type": "parameter",
+      "defaultValue": "myAction",
+      "replaces":"increment"
+     }
+    },
+    "sources":[{
+     "modifiers": [{
+      "condition": "(!includetest)",
+      "exclude": [ "PlannerEventServiceTests/**/*"]
+      }
+   
+     ]
+   
+    }]
+   
+   }
+   

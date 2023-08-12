@@ -1,0 +1,1 @@
+Contains subset of files that are helpful to dynamically generate for a new redux reducer slice
